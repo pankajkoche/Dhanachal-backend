@@ -13,7 +13,7 @@ dotenv.config();
 
 
 mongoose.set("strictQuery", false);
-mongoose.connect( process.env.Mongo_URL)
+mongoose.connect( "mongodb+srv://pankaj:newoldpass@cluster0.spian.mongodb.net/dhanachal?retryWrites=true&w=majority")
 .then(()=>console.log('db connection suceesfull'))
 .catch((err)=>{
     console.log(err)
