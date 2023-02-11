@@ -57,6 +57,7 @@ router.get("/find/:id", async (req, res) => {
     res.status(500).json(err);
   }
   
+  
 });
 
 //GET ALL Products
